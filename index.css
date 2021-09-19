@@ -1,0 +1,631 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GilroyBlack";
+  src: url("fonts/Gilroy-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GilroySemibold";
+  src: url("fonts/Gilroy-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GilroyHeavy";
+  src: url("fonts/Gilroy-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("fonts/Gilroy-Regular.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.nav-container {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 5rem;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.plateaumed-nav-item-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-icon {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+#icon-email {
+  width: 1.263rem;
+  height: 1rem;
+}
+
+.nav-text {
+  font-family: "GilroyMedium", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.548;
+  color: #121483;
+}
+
+.ellipse-image {
+  width: 30.921rem;
+  height: 12.537rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.plateaumed-hero-container {
+  margin-top: 8rem;
+  padding: 1.1rem 5rem;
+  height: calc(100vh - 8rem -1.2rem -1.2rem);
+}
+
+.plateaumed-hero-content {
+  position: relative;
+  max-width: 70%;
+}
+
+.plateaumed-hero-header-title {
+  font-family: "GilroyBlack", sans-serif;
+  font-size: 3.25rem;
+  line-height: 4.1rem;
+  color: #fa8f12;
+}
+
+.plateaumed-hero-header-title-span {
+  color: #191bb4;
+}
+
+.plateaumed-hero-rectangle {
+  position: absolute;
+  top: 7.5rem;
+  right: 34.5rem;
+}
+
+.plateaumed-hero-square-left {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+.plateaumed-hero-square-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  z-index: -4;
+}
+
+.ellipse-image-2 {
+  width: 45%;
+  position: absolute;
+  top: 15rem;
+  right: 20rem;
+  z-index: -5;
+}
+
+.rectangle-first {
+  z-index: -2;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  width: 20%;
+}
+
+.plateaumed-hero-rectangle-second {
+  position: absolute;
+  width: 2%;
+  left: 30rem;
+  z-index: -6;
+}
+
+.plateaumed-hero-image {
+  position: absolute;
+  top: 10rem;
+  right: 5.563rem;
+  object-fit: contain;
+  width: 35%;
+  z-index: -1;
+}
+
+.plateaumed-hero-list-container {
+  padding: 1.5rem 0 0 0;
+}
+
+.plateaumed-hero-list-container-2 {
+  padding: 1rem 0 0 0;
+}
+
+.plateaumed-hero-list-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-list-item {
+  padding-left: 1.2rem;
+  font-weight: bold;
+  font-family: "GilroyBlack", sans-serif;
+  font-size: 1.6rem;
+  background-color: #4052f6;
+  background-image: linear-gradient(90deg, #4052f6, #515bae);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.plateaumed-question-text {
+  color: #121483;
+  font-family: "GilroyRegular", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1.5rem 0 0 0;
+}
+
+.plateaumed-subscribe-form {
+  position: absolute;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  width: 35%;
+  border: 0.2rem solid transparent;
+  outline: 0;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  font-family: "GilroyRegular", sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 11px 2px rgba(0, 0, 0, 0.08);
+}
+
+.plateaumed-subscribe-form:focus {
+  border: 0.2rem solid #191bb4;
+}
+
+.plateaumed-subscribe-form::placeholder {
+  font-size: 1.1rem;
+  color: #a6afc2;
+  font-family: "GilroyRegular", sans-serif;
+}
+
+.subscribe-button {
+  position: absolute;
+  top: 31.8rem;
+  left: 30rem;
+  background: #191bb4;
+  border: 0;
+  padding: 1.236rem 2.4rem;
+  border-top-right-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  font-size: 1rem;
+  font-family: "GilroyBold", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+#plateaumed-notify {
+  color: #02c22c !important;
+  font-size: 1rem !important;
+  margin: 5rem 0 0 2rem;
+  display: none;
+  font-family: "GilroySemibold", sans-serif;
+}
+
+.scroll-down-btn {
+  border-style: none;
+  background-color: transparent;
+  position: absolute;
+  right: 5rem;
+  bottom: 0;
+  cursor: pointer;
+}
+
+/* Core features styling */
+.core-features-section {
+  margin-top: 9rem;
+  padding: 6rem 5rem;
+}
+
+.core-features-title {
+  font-family: "GilroyBold", sans-serif;
+  font-weight: bold;
+  margin-left: 10rem;
+  font-size: 2rem;
+  color: #121483;
+  position: relative;
+}
+
+.rectangle-long {
+  position: absolute;
+  left: -5rem;
+  z-index: -7;
+}
+
+.spacing {
+  margin-top: 1rem;
+}
+
+.core-features-container {
+  padding-top: 3rem;
+  font-family: "GilroyBold", sans-serif;
+  font-weight: bold;
+}
+
+.core-features-subtitle {
+  color: #2b2ee9;
+}
+
+.core-features-item-wrapper {
+  position: absolute;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.08);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+
+.additional-wrapper-style {
+  justify-content: space-around;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.additional-wrapper-style-2 {
+  justify-content: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.core-features-item {
+  border-left: 1px solid #2b2ee9;
+  padding: 0 1rem;
+}
+
+.core-features-item-title {
+  padding-bottom: 1rem;
+  font-family: "GilroyBold", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000109;
+}
+
+.core-features-item-text {
+  color: #000;
+  font-family: "GilroyRegular", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-bottom: 2rem;
+}
+
+.additional-item-style {
+  width: 25%;
+}
+
+.contact-info {
+  border-left: 2px solid #ffad4d;
+}
+
+.contact-info-item {
+  list-style: none;
+  align-items: center;
+}
+
+.contact-item {
+  padding: 0.7rem 0;
+}
+
+.contact-text {
+  color: #3a3b4a;
+  font-family: "GilroyRegular", sans-serif;
+}
+
+.contact-description {
+  color: #3a3b4a;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "GilroyMedium", sans-serif;
+  width: 40%;
+}
+
+.footer-section {
+  padding-bottom: 4rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 7rem;
+  padding-bottom: 2rem;
+}
+
+.coming-soon-text {
+  font-family: "GilroyMedium", sans-serif;
+  color: #191bb4;
+  margin-right: 13rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.app-wrapper {
+  text-align: right;
+}
+
+.google-icon {
+  width: 23%;
+}
+
+.apple-icon {
+  margin-bottom: 0.6rem;
+  width: 20%;
+}
+
+.rectangle-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rectangle-4 {
+  position: absolute;
+  right: 20rem;
+  bottom: 0;
+}
+
+.rectangle-5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.rectangle-6 {
+  position: absolute;
+  right: 40rem;
+}
+
+.rectangle-7 {
+  position: absolute;
+  right: 0;
+}
+
+/* Styling for 1025px and 1199px */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .plateaumed-hero-header-title {
+    font-size: 2.7rem;
+    line-height: 4rem;
+  }
+
+  br {
+    display: none;
+  }
+
+  .subscribe-button {
+    top: 27.8rem;
+    left: 24rem;
+  }
+
+  .scroll-down-btn {
+    bottom: 3rem;
+  }
+
+  .core-features-title {
+    font-size: 1.8rem;
+  }
+
+  .core-features-subtitle {
+    font-size: 1.8rem;
+  }
+}
+
+/* Input form specific style for 1025 to 1055px */
+@media screen and (min-width: 1025px) and (max-width: 1055px) {
+  .subscribe-button {
+    top: 31.8rem;
+    left: 21rem;
+  }
+}
+
+/* Styling for 601px and 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .nav-container {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .nav-text {
+    font-size: 1rem;
+  }
+
+  br {
+    display: none;
+  }
+
+  .plateaumed-hero-header-title {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .core-features-title {
+    font-size: 1.8rem;
+  }
+
+  .core-features-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .core-features-item-title {
+    font-size: 0.9rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.3rem;
+  }
+
+  .scroll-down-btn {
+    right: -9rem;
+    bottom: 6rem;
+  }
+}
+
+/* Hero Section Styling for 945px and 1024px */
+@media screen and (min-width: 945px) and (max-width: 1024px) {
+  .subscribe-button {
+    top: 28.6rem;
+    left: 19rem;
+  }
+
+  .scroll-down-btn {
+    bottom: 9rem;
+  }
+
+  .plateaumed-hero-content {
+    max-width: 62%;
+  }
+
+  .core-features-title {
+    margin-top: 4rem;
+  }
+
+  .rectangle-4 {
+    right: 10rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+  }
+
+  .google-icon {
+    width: 18%;
+  }
+
+  .apple-icon {
+    margin-bottom: 0.5rem;
+    width: 16%;
+  }
+
+  .coming-soon-text {
+    font-size: 1rem;
+    margin-right: 10rem;
+  }
+}
+
+/* Section Styling for 687px and 944px */
+@media screen and (min-width: 687px) and (max-width: 944px) {
+  .plateaumed-hero-image {
+    top: 9rem;
+    right: 0;
+  }
+  .plateaumed-subscribe-form {
+    width: 40%;
+  }
+
+  .subscribe-button {
+    top: 28.6rem;
+    left: 20rem;
+  }
+
+  .scroll-down-btn {
+    bottom: 6rem;
+    right: 0;
+  }
+}
+
+/* Section Styling for 891px and 944px */
+@media screen and (min-width: 891px) and (max-width: 944px) {
+  .subscribe-button {
+    top: 25.6rem;
+    left: 22rem;
+  }
+}
+
+/* Section Styling for 891px and 944px */
+@media screen and (min-width: 985px) and (max-width: 1024px) {
+  .subscribe-button {
+    top: 25.6rem;
+    left: 20rem;
+  }
+}
+
+/* Section Styling for 601px and 686px */
+@media screen and (min-width: 601px) and (max-width: 686px) {
+  .plateaumed-hero-image {
+    right: 0;
+    top: 9rem;
+  }
+
+  .plateaumed-hero-header-title {
+    font-size: 2rem;
+  }
+
+  .plateaumed-subscribe-form {
+    width: 48%;
+  }
+
+  .subscribe-button {
+    top: 28.6rem;
+    left: 18rem;
+  }
+}
+
+/* Section Styling for 601px and 638px */
+@media screen and (min-width: 601px) and (max-width: 638px) {
+  .subscribe-button {
+    top: 31.6rem;
+    left: 18rem;
+  }
+}
