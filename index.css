@@ -673,15 +673,15 @@
   }
 
   .subscribe-button {
-    top: 28.6rem;
-    left: 18rem;
+    top: 29.2rem;
+    left: 19rem;
   }
 }
 
 /* Section Styling for 601px and 638px */
 @media screen and (min-width: 601px) and (max-width: 638px) {
   .subscribe-button {
-    top: 31.6rem;
+    top: 32.1rem;
     left: 18rem;
   }
 }
@@ -822,10 +822,6 @@
 
 /* Styling for 481px and 600px */
 @media screen and (min-width: 481px) and (max-width: 600px) {
-  html {
-    width: 120%;
-  }
-
   .nav-container {
     width: 100%;
     padding: 3rem 5rem;
@@ -842,7 +838,7 @@
     z-index: 1;
     top: 28rem;
     right: auto;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 
   .plateaumed-hero-header-title {
@@ -872,8 +868,8 @@
   }
 
   .subscribe-button {
-    top: 64.5rem;
-    left: 19rem;
+    top: 66.5rem;
+    left: 20rem;
   }
 
   .inner-style {
@@ -983,7 +979,7 @@
   }
 
   .subscribe-button {
-    top: 60.6rem;
+    top: 65.6rem;
   }
 
   .core-features-title {
@@ -993,10 +989,6 @@
 
 /* Styling for 321px and 480px */
 @media screen and (min-width: 321px) and (max-width: 480px) {
-  html {
-    width: 120%;
-  }
-
   .nav-container {
     width: 100%;
     padding: 2rem 5rem;
@@ -1159,7 +1151,7 @@
   }
 
   .subscribe-button {
-    top: 58.2rem;
+    top: 62.1rem;
     left: 22rem;
   }
   .plateaumed-hero-image {
@@ -1192,8 +1184,8 @@
   }
 
   .subscribe-button {
-    top: 58.1rem;
-    left: 19rem;
+    top: 61.3rem;
+    left: 20rem;
   }
   .plateaumed-hero-image {
     width: 90%;
@@ -1220,7 +1212,7 @@
   }
 
   .subscribe-button {
-    top: 57.9rem;
+    top: 58rem;
     left: 19rem;
   }
 
@@ -1252,7 +1244,7 @@
   }
 
   .subscribe-button {
-    top: 56.3rem;
+    top: 57.3rem;
     left: 21rem;
   }
 
@@ -1288,10 +1280,6 @@
 /* Styling for 320px and below */
 
 @media screen and (max-width: 320px) {
-  html {
-    width: 120%;
-  }
-
   .nav-container {
     width: 100%;
     padding: 2rem 5rem;
@@ -1495,6 +1483,7 @@
 
   .plateaumed-hero-container {
     padding-left: 2rem !important;
+    padding-right: 0 !important;
   }
 
   .core-features-section {
