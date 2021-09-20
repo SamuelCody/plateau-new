@@ -244,11 +244,11 @@
 }
 
 #plateaumed-notify {
-  color: #02c22c !important;
+  color: #02c22c;
   font-size: 1rem !important;
   margin: 5rem 0 0 2rem;
   display: none;
-  font-family: "GilroySemibold", sans-serif;
+  font-family: "GilroySemibold", sans-serif !important;
 }
 
 .scroll-down-btn {
@@ -531,6 +531,7 @@
 
   .scroll-down-btn {
     bottom: 9rem;
+    right: 6rem;
   }
 
   .plateaumed-hero-content {
@@ -562,13 +563,39 @@
     font-size: 1rem;
     margin-right: 10rem;
   }
+
+  .additional-wrapper-style-2 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .additional-item-style {
+    margin-top: 0 !important;
+  }
+
+  .additional-wrapper-style {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .app-container {
+    padding-right: 4.5rem;
+  }
+
+  .footer-section {
+    margin-top: 5rem;
+  }
+
+  .core-features-item-wrapper {
+    padding: 3rem 2rem;
+  }
 }
 
 /* Section Styling for 687px and 944px */
 @media screen and (min-width: 687px) and (max-width: 944px) {
   .plateaumed-hero-image {
     top: 9rem;
-    right: 0;
+    right: 2rem;
   }
   .plateaumed-subscribe-form {
     width: 40%;
@@ -580,8 +607,35 @@
   }
 
   .scroll-down-btn {
-    bottom: 6rem;
-    right: 0;
+    bottom: 9rem;
+    right: 5rem;
+  }
+
+  .core-features-title {
+    margin-top: 1rem;
+  }
+
+  .rectangle-4 {
+    right: 10rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+    margin-right: 3rem;
+  }
+
+  .additional-wrapper-style-2 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .additional-wrapper-style {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .additional-item-style {
+    margin-top: 0 !important;
   }
 }
 
@@ -627,5 +681,311 @@
   .subscribe-button {
     top: 31.6rem;
     left: 18rem;
+  }
+}
+
+/* Section Styling for 687px and 80px */
+@media screen and (min-width: 687px) and (max-width: 804px) {
+  .logo {
+    width: 85%;
+  }
+  .nav-text {
+    font-size: 0.6rem;
+  }
+
+  #icon-email {
+    width: 1rem;
+    height: 0.7rem;
+  }
+
+  .nav-icon {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .plateaumed-hero-header-title {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.1rem;
+  }
+
+  .subscribe-button {
+    top: 27.9rem;
+    left: 19rem;
+  }
+
+  .scroll-down-btn {
+    bottom: 7rem;
+  }
+
+  .core-features-title {
+    font-size: 1.6rem;
+  }
+
+  .core-features-item-wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .core-features-item-title {
+    font-size: 0.8rem;
+  }
+
+  .core-features-item-text {
+    font-size: 0.8rem;
+  }
+
+  .contact-description {
+    font-size: 0.9rem;
+  }
+
+  .google-icon {
+    width: 20%;
+  }
+
+  .apple-icon {
+    width: 17%;
+    margin-bottom: 0.5rem;
+  }
+
+  .coming-soon-text {
+    margin-right: 8.7rem;
+    font-size: 1.1rem;
+  }
+
+  .rectangle-4 {
+    right: 6rem;
+  }
+}
+
+/* Section Styling for 687px and 760px */
+@media screen and (min-width: 687px) and (max-width: 760px) {
+  .coming-soon-text {
+    margin-right: 7rem;
+  }
+
+  .contact-description {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+  }
+
+  .core-features-title {
+    font-size: 1.4rem;
+    margin-left: 7rem;
+  }
+}
+
+/* Styling for 601px and 686px */
+@media screen and (min-width: 601px) and (max-width: 686px) {
+  .plateaumed-hero-image {
+    right: -7rem;
+    width: 50%;
+  }
+
+  .scroll-down-btn {
+    bottom: 3rem;
+  }
+
+  .core-features-item-wrapper {
+    margin-right: -7rem;
+  }
+
+  .core-features-container {
+    padding-top: 5rem;
+  }
+
+  .core-features-title {
+    margin-top: 4rem;
+  }
+
+  .coming-soon-text {
+    margin-right: 3rem;
+  }
+
+  .additional-wrapper-style-2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+/* Section Styling for 601px and 660px */
+@media screen and (min-width: 601px) and (max-width: 660px) {
+  .nav-text {
+    font-size: 0.8rem;
+  }
+}
+
+/* MOBILE */
+
+/* Styling for 481px and 600px */
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  html {
+    width: 120%;
+  }
+
+  .nav-container {
+    width: 100%;
+    padding: 3rem 5rem;
+  }
+
+  .plateaumed-nav-item-container {
+    display: none;
+  }
+
+  .plateaumed-hero-image {
+    position: static;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 28rem;
+    right: auto;
+    margin-top: 1rem;
+  }
+
+  .plateaumed-hero-header-title {
+    font-size: 2.1rem;
+    line-height: 3rem;
+  }
+
+  .plateaumed-hero-content {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .plateaumed-hero-list-container {
+    padding: 2rem 0 0 0;
+  }
+
+  .subscribe-style {
+    margin-top: 31rem;
+  }
+
+  .plateaumed-question-text {
+    font-size: 1.5rem;
+  }
+
+  .plateaumed-subscribe-form {
+    width: 65%;
+  }
+
+  .subscribe-button {
+    top: 64.5rem;
+    left: 22rem;
+  }
+
+  .inner-style {
+    margin-top: 2rem;
+  }
+
+  .core-features-title {
+    margin-left: 3rem;
+    font-size: 1.8rem;
+  }
+
+  .core-features-section {
+    margin-top: 2rem;
+    padding: 6rem 5rem 0 5rem;
+  }
+
+  .core-features-subtitle {
+    font-size: 1.7rem;
+  }
+
+  .core-features-item-wrapper {
+    flex-direction: column;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0;
+    position: static;
+    padding: 2rem;
+  }
+
+  .core-features-item {
+    margin-bottom: 2rem;
+  }
+
+  .mobile-styling {
+    padding: 0rem 5rem;
+  }
+
+  .additional-wrapper-style {
+    align-items: flex-start;
+  }
+
+  .additional-wrapper-style-2 {
+    align-items: flex-start;
+  }
+
+  .additional-item-style {
+    margin-left: 0rem !important;
+    width: 100% !important;
+  }
+
+  .additional-item-style {
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .footer-section {
+    padding: 0 5rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+
+  .coming-soon-text {
+    margin-right: 4rem;
+  }
+
+  .app-container {
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0 7rem;
+  }
+
+  .app-wrapper {
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  .google-icon {
+    width: 32%;
+  }
+
+  .apple-icon {
+    margin-bottom: 0.4rem;
+    width: 30%;
+  }
+
+  .scroll-down-btn {
+    display: none;
+  }
+}
+
+/* Styling for 481px and 522px */
+@media screen and (min-width: 481px) and (max-width: 522px) {
+  .plateaumed-hero-header-title {
+    font-size: 1.8rem;
+  }
+
+  .subscribe-style {
+    margin-top: 25rem;
+  }
+
+  .subscribe-button {
+    top: 60.6rem;
+  }
+
+  .core-features-title {
+    font-size: 1.4rem;
   }
 }
