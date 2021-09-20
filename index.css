@@ -88,6 +88,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 100;
 }
 
 .plateaumed-hero-container {
@@ -121,6 +122,7 @@
 .plateaumed-hero-square-left {
   position: absolute;
   top: 0;
+  left: 0;
   width: 40%;
   z-index: -4;
 }
@@ -130,7 +132,7 @@
   top: 0;
   right: 0;
   width: 20%;
-  z-index: -4;
+  z-index: 100;
 }
 
 .ellipse-image-2 {
@@ -199,7 +201,7 @@
   color: #121483;
   font-family: "GilroyRegular", sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   padding: 1.5rem 0 0 0;
 }
 
@@ -229,9 +231,9 @@
 
 .subscribe-button {
   position: absolute;
-  top: 31.8rem;
+  top: 32.4rem;
   left: 30rem;
-  background: #191bb4;
+  background: #121483;
   border: 0;
   padding: 1.236rem 2.4rem;
   border-top-right-radius: 2.5rem;
@@ -452,7 +454,7 @@
   }
 
   .subscribe-button {
-    top: 27.8rem;
+    top: 28.1rem;
     left: 24rem;
   }
 
@@ -525,7 +527,7 @@
 /* Hero Section Styling for 945px and 1024px */
 @media screen and (min-width: 945px) and (max-width: 1024px) {
   .subscribe-button {
-    top: 28.6rem;
+    top: 29.1rem;
     left: 19rem;
   }
 
@@ -642,7 +644,7 @@
 /* Section Styling for 891px and 944px */
 @media screen and (min-width: 891px) and (max-width: 944px) {
   .subscribe-button {
-    top: 25.6rem;
+    top: 26.1rem;
     left: 22rem;
   }
 }
@@ -650,7 +652,7 @@
 /* Section Styling for 891px and 944px */
 @media screen and (min-width: 985px) and (max-width: 1024px) {
   .subscribe-button {
-    top: 25.6rem;
+    top: 26.1rem;
     left: 20rem;
   }
 }
@@ -713,8 +715,7 @@
   }
 
   .subscribe-button {
-    top: 27.9rem;
-    left: 19rem;
+    top: 28.5rem;
   }
 
   .scroll-down-btn {
@@ -872,7 +873,7 @@
 
   .subscribe-button {
     top: 64.5rem;
-    left: 22rem;
+    left: 19rem;
   }
 
   .inner-style {
@@ -899,7 +900,7 @@
     border-radius: 0;
     margin-top: 0;
     position: static;
-    padding: 2rem;
+    padding: 2rem 0.1rem;
   }
 
   .core-features-item {
@@ -987,5 +988,516 @@
 
   .core-features-title {
     font-size: 1.4rem;
+  }
+}
+
+/* Styling for 321px and 480px */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  html {
+    width: 120%;
+  }
+
+  .nav-container {
+    width: 100%;
+    padding: 2rem 5rem;
+  }
+
+  .plateaumed-nav-item-container {
+    display: none;
+  }
+
+  .plateaumed-hero-image {
+    position: static;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 28rem;
+    right: auto;
+    margin-top: 2rem;
+  }
+
+  .plateaumed-hero-header-title {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .plateaumed-hero-content {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .plateaumed-hero-list-container {
+    padding: 2rem 0 0 0;
+  }
+
+  .subscribe-style {
+    margin-top: 25rem;
+  }
+
+  .plateaumed-question-text {
+    font-size: 1.5rem;
+  }
+
+  .plateaumed-subscribe-form {
+    width: 100%;
+  }
+
+  .subscribe-button {
+    top: 60.6rem;
+    left: 22rem;
+  }
+
+  .inner-style {
+    margin-top: 2rem;
+  }
+
+  .core-features-title {
+    margin-left: 3rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .core-features-section {
+    margin-top: 2rem;
+    padding: 6rem 5rem 0 3rem;
+    width: 120%;
+  }
+
+  .core-features-subtitle {
+    font-size: 1.7rem;
+  }
+
+  .core-features-item-wrapper {
+    flex-direction: column;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0;
+    position: static;
+    padding: 2rem 0;
+    margin-right: 0;
+  }
+
+  .core-features-item {
+    margin-bottom: 2rem;
+  }
+
+  .mobile-styling {
+    padding: 0rem 5rem;
+  }
+
+  .additional-wrapper-style {
+    align-items: flex-start;
+  }
+
+  .additional-wrapper-style-2 {
+    align-items: flex-start;
+  }
+
+  .additional-item-style {
+    margin-left: 0rem !important;
+    width: 100% !important;
+  }
+
+  .additional-item-style {
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    padding-left: 0rem;
+  }
+
+  .footer-section {
+    padding: 0 5rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+
+  .coming-soon-text {
+    margin-right: 3rem;
+    font-size: 1rem;
+  }
+
+  .app-container {
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0 7rem;
+  }
+
+  .app-wrapper {
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  .google-icon {
+    width: 32%;
+  }
+
+  .apple-icon {
+    margin-bottom: 0.4rem;
+    width: 30%;
+  }
+
+  .scroll-down-btn {
+    display: none;
+  }
+}
+
+/* Styling for 373px and 467px */
+@media screen and (min-width: 400px) and (max-width: 467px) {
+  .plateaumed-hero-header-title {
+    font-size: 1.437rem;
+    line-height: 2.9rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-button {
+    top: 58.2rem;
+    left: 22rem;
+  }
+  .plateaumed-hero-image {
+    width: 90%;
+  }
+
+  .core-features-title {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+
+  .core-features-item-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+  }
+}
+
+/* Styling for 394px and 400px */
+@media screen and (min-width: 394px) and (max-width: 400px) {
+  .plateaumed-hero-header-title {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-button {
+    top: 58.1rem;
+    left: 19rem;
+  }
+  .plateaumed-hero-image {
+    width: 90%;
+  }
+
+  .core-features-title {
+    font-size: 1.2rem;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+  }
+}
+
+/* Styling for 373px and 393px */
+@media screen and (min-width: 373px) and (max-width: 393px) {
+  .plateaumed-hero-header-title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-button {
+    top: 57.9rem;
+    left: 19rem;
+  }
+
+  .plateaumed-hero-image {
+    width: 90%;
+  }
+
+  .core-features-title {
+    font-size: 1.2rem;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+  }
+}
+
+/* Styling for 321px and 373px */
+@media screen and (min-width: 321px) and (max-width: 372px) {
+  .plateaumed-hero-container {
+    width: 130%;
+  }
+  .plateaumed-hero-header-title {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-button {
+    top: 56.3rem;
+    left: 21rem;
+  }
+
+  .plateaumed-subscribe-form {
+    width: 100%;
+  }
+
+  .plateaumed-hero-image {
+    width: 90%;
+  }
+
+  .core-features-title {
+    font-size: 1.2rem;
+  }
+
+  .core-features-item-wrapper {
+    width: 90%;
+  }
+
+  .mobile-styling {
+    padding: 0rem 2rem 0 3rem;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+  }
+
+  .contact-description {
+    width: 100%;
+  }
+}
+
+/* Styling for 320px and below */
+
+@media screen and (max-width: 320px) {
+  html {
+    width: 120%;
+  }
+
+  .nav-container {
+    width: 100%;
+    padding: 2rem 5rem;
+  }
+
+  .plateaumed-nav-item-container {
+    display: none;
+  }
+
+  .plateaumed-hero-image {
+    position: static;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 28rem;
+    right: auto;
+    margin-top: 2rem;
+  }
+
+  .plateaumed-hero-header-title {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .plateaumed-hero-content {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .plateaumed-hero-list-container {
+    padding: 2rem 0 0 0;
+  }
+
+  .subscribe-style {
+    margin-top: 25rem;
+  }
+
+  .plateaumed-question-text {
+    font-size: 1.5rem;
+  }
+
+  .plateaumed-subscribe-form {
+    width: 65%;
+  }
+
+  .subscribe-button {
+    top: 60.6rem;
+    left: 22rem;
+  }
+
+  .inner-style {
+    margin-top: 2rem;
+  }
+
+  .core-features-title {
+    margin-left: 3rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .core-features-section {
+    margin-top: 2rem;
+    padding: 6rem 5rem 0 5rem;
+    width: 120%;
+  }
+
+  .core-features-subtitle {
+    font-size: 1.7rem;
+  }
+
+  .core-features-item-wrapper {
+    flex-direction: column;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 0;
+    position: static;
+    padding: 2rem 0;
+    margin-right: 0;
+  }
+
+  .core-features-item {
+    margin-bottom: 2rem;
+  }
+
+  .mobile-styling {
+    padding: 0rem 5rem;
+  }
+
+  .additional-wrapper-style {
+    align-items: flex-start;
+  }
+
+  .additional-wrapper-style-2 {
+    align-items: flex-start;
+  }
+
+  .additional-item-style {
+    margin-left: 0rem !important;
+    width: 100% !important;
+  }
+
+  .additional-item-style {
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    padding-left: 0rem;
+  }
+
+  .footer-section {
+    padding: 0 5rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+
+  .coming-soon-text {
+    margin-right: 3rem;
+    font-size: 1rem;
+  }
+
+  .app-container {
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0 7rem;
+  }
+
+  .app-wrapper {
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  .google-icon {
+    width: 32%;
+  }
+
+  .apple-icon {
+    margin-bottom: 0.4rem;
+    width: 30%;
+  }
+
+  .scroll-down-btn {
+    display: none;
+  }
+  .plateaumed-hero-container {
+    width: 130%;
+  }
+  .plateaumed-hero-header-title {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
+
+  .hero-list-item {
+    font-size: 1.2rem;
+  }
+
+  .subscribe-button {
+    top: 57.1rem;
+    left: 17rem;
+  }
+
+  .plateaumed-subscribe-form {
+    width: 100%;
+  }
+
+  .plateaumed-hero-image {
+    width: 90%;
+  }
+
+  .core-features-title {
+    font-size: 1.2rem;
+  }
+
+  .core-features-item-wrapper {
+    width: 90%;
+  }
+
+  .mobile-styling {
+    padding: 0rem 2rem 0 5rem;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+  }
+
+  .contact-description {
+    width: 100%;
+  }
+}
+
+/* Styling for 600px and below */
+
+@media screen and (max-width: 600px) {
+  .nav-container {
+    padding-left: 2rem !important;
+  }
+
+  .plateaumed-hero-container {
+    padding-left: 2rem !important;
+  }
+
+  .core-features-section {
+    padding-left: 2rem !important;
   }
 }
